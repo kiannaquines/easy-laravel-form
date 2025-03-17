@@ -1,6 +1,6 @@
 {
     "name": "formfy/easy-laravel-form",
-    "description": "Formfy is a laravel package for easy form creation and management",
+    "description": "Formfy is a laravel package for easy form creation",
     "type": "laravel-package",
     "require": {
         "illuminate/support": "^12.2",
