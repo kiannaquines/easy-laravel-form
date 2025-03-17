@@ -1,0 +1,22 @@
+{
+    "name": "kian/easy-laravel-form",
+    "description": "A Laravel package for easy form creation and management",
+    "type": "laravel-package",
+    "require": {
+        "illuminate/support": "^12.2",
+        "illuminate/http": "^12.2",
+        "illuminate/database": "^12.2"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Kian\\EasyLaravelForm\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "kiannaquines",
+            "email": "kjgnaquines@gmail.com"
+        }
+    ]
+}
