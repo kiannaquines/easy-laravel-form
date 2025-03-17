@@ -1,6 +1,6 @@
 <?php
 
-namespace Kian\EasyLaravelForm;
+namespace Formfy\EasyLaravelForm;
 
 use Illuminate\Support\HtmlString;
 
@@ -65,7 +65,6 @@ class FormBuilder extends FormAttribute
             $attrs = $this->formatAttributes($input['attributes']);
             $errorClass = isset($this->errors[$input['name']]) ? 'border-red-500' : '';
 
-            // Determine class per input (allow override)
             $fieldClass = $input['attributes']['class'] ?? $this->defaultInputClass;
 
             switch ($input['type']) {

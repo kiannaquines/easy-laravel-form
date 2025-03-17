@@ -1,6 +1,6 @@
 {
-    "name": "kian/easy-laravel-form",
-    "description": "A Laravel package for easy form creation and management",
+    "name": "formfy/easy-laravel-form",
+    "description": "Formfy is a laravel package for easy form creation and management",
     "type": "laravel-package",
     "require": {
         "illuminate/support": "^12.2",
@@ -10,7 +10,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Kian\\EasyLaravelForm\\": "src/"
+            "Formfy\\EasyLaravelForm\\": "src/"
         }
     },
     "authors": [
@@ -18,5 +18,16 @@
             "name": "kiannaquines",
             "email": "kjgnaquines@gmail.com"
         }
-    ]
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Formfy\\EasyLaravelForm\\FormsServiceProvider"
+            ],
+            "aliases": {
+                "Form": "Formfy\\EasyLaravelForm\\Facades\\FormFacade",
+                "DBForm": "Formfy\\EasyLaravelForm\\Facades\\DBFormFacade"
+            }
+        }
+    }
 }

@@ -1,6 +1,6 @@
 <?php
 
-namespace Kian\EasyLaravelForm\Facades;
+namespace Formfy\EasyLaravelForm\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

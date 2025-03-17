@@ -1,6 +1,6 @@
 <?php
 
-namespace Kian\EasyLaravelForm;
+namespace Formfy\EasyLaravelForm;
 
 abstract class FormAttribute
 {

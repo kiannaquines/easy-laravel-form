@@ -1,6 +1,6 @@
 <?php
 
-namespace Kian\EasyLaravelForm;
+namespace Formfy\EasyLaravelForm;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\HtmlString;
@@ -112,7 +112,6 @@ abstract class DBFormBuilder extends FormAttribute
             $attrs = $this->formatAttributes($field['attributes']);
             $errorClass = isset($this->errors[$field['name']]) ? 'border-red-500' : '';
 
-            // Determine field class (allow override)
             $fieldClass = $field['attributes']['class'] ?? $this->defaultInputClass;
 
             switch ($field['type']) {
